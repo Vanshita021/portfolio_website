@@ -104,6 +104,21 @@ body {
     transform: translateY(-2px);
 }
 
+.about-me img:hover{
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+.home-me img{
+    box-shadow: 2px 6px 8px 0 rgba(0, 0, 0, 0.575);
+}
+
+.home-me img:hover{
+    transform: translateY(-2px);
+    box-shadow: 2px 6px 8px 0 rgb(0, 0, 0);
+    cursor: pointer;
+}
+
 .card {
     border: none;
     border-radius: 4px;
@@ -113,8 +128,56 @@ body {
     border-top: 1px solid #e2bbe9;
 }
 
+.card:hover{
+    box-shadow: 2px 6px 8px 0 rgb(0, 0, 0);
+    cursor:pointer;
+    background-color: #101e55;
+    transform: translateY(-2px);
+}
+
+.card-p{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 6px 8px 0 rgba(0, 0, 0, 0.637) ;
+    background-color: #0b153b;
+    color: #fff;
+}
+
+.card-p:hover{
+    box-shadow: 2px 6px 8px 0 rgba(0, 0, 0, 0.932);
+    cursor:pointer;
+    background-color: #101e55;
+    transform: translateY(-2px);
+}
+
+.card-p img{
+    border-radius: 10px 10px 0px  0px;
+}
+
+
 .carousel-inner {
     padding: 1em;
+}
+
+#contact .contact-me .form{
+    background-color: #15245e8f;
+    border: 1px solid #15245e59 !important;
+    border-radius: 20px; 
+    box-shadow: 2px 6px 8px 0 rgba(0, 0, 0, 0.356);
+}
+
+#contact .contact-me .form:hover{
+    cursor: pointer;
+    box-shadow: 2px 6px 8px 0 rgba(0, 0, 0, 0.932);
+}
+
+#contact .contact-me .form::placeholder{
+    border-radius: 20px;
+}
+
+#contact .contact-img img:hover{
+    transform: translateY(-2px);
+    cursor: pointer;
 }
 
 @media screen and (min-width: 577px) {
